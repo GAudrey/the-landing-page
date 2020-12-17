@@ -1,0 +1,36 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    transition: background-image 1s ease-in-out;
+    transition-delay: 1s
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    min-width: 50%;
+    max-width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+section{
+    text-align: center;
+    font-size: 3rem;
+}
+
+#date-section{
+    font-family: 'Audiowide', cursive;
+}
+
+#time-section{
+    font-family: 'Share Tech Mono', monospace;
+}
